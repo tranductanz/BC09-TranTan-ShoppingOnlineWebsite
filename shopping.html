@@ -23,12 +23,14 @@
                     <h1><a href="./manager.html">Đi đến trang Quản Lý Sản Phẩm</a></h1>
                </div>
                <input oninput="searchProduct();" id="txtSearch" class="form-control w-50 mb-4" type="text" placeholder="Tìm kiếm sản phẩm">
-               <select class="mb-5 onchange="filterProduct();" id="productChoose">
-                    <option " value="">--Chọn dòng sản phẩm</option>
-                    <option value="all">Tất cả sản phẩm</option>
-                    <option value="iphone">Iphone</option>
-                    <option value="samsung">Samsung</option>
-               </select>
+               <div class="mt-3 mb-3">
+                    <select onchange="filterProduct();" id="productChoose">
+                         <option value="">--Chọn dòng sản phẩm</option>
+                         <option value="all">Tất cả sản phẩm</option>
+                         <option value="iphone">Iphone</option>
+                         <option value="samsung">Samsung</option>
+                    </select>
+               </div>
           </div>
      </header>
      <section class="products">
